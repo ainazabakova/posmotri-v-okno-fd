@@ -61,7 +61,6 @@ html {
   display: flex;
   justify-content: center;
   align-content: center;
-  border: 2px red solid;
 }
 
 h1,
@@ -132,7 +131,8 @@ ol {
 .content__list-container {
   height: 298px;
   overflow-y: auto;
-  margin-top: 22px;
+  margin-top: 20px;
+  padding-top: 2px;
   display: flex;
   flex-direction: column;
   position: relative;
@@ -353,6 +353,7 @@ input[type="text"] {
 
 .more-button {
   flex-grow: 1;
+  margin: 3px;
   margin-top: 30px;
 }
 
